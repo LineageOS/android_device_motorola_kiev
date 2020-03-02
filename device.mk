@@ -193,12 +193,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.postproc@1.0.vendor \
     android.frameworks.displayservice@1.0.vendor
 
-# CNE
-PRODUCT_PACKAGES += \
-    cneapiclient \
-    com.quicinc.cne \
-    services-ext
-
 # Common init scripts
 PRODUCT_PACKAGES += \
     fstab.qcom \
