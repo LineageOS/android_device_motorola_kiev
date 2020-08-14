@@ -23,7 +23,7 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    android.hardware.soundtrigger@2.2-impl \
+    android.hardware.soundtrigger@2.3-impl \
     firmware_aw_cali.bin_symlink
 
 PRODUCT_COPY_FILES += \
