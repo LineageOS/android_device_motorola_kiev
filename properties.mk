@@ -465,3 +465,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # Zygote
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.device_config.runtime_native.usap_pool_enabled=true
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    zygote.critical_window.minute=10
