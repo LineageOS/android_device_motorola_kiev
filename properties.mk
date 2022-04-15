@@ -107,6 +107,7 @@ PRODUCT_ODM_PROPERTIES += \
 
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
+    bluetooth.device.default_name=moto g 5G \
     net.bt.name='Moto G 5G' \
     ro.bluetooth.a2dp_offload.supported=true \
     ro.vendor.bluetooth.wipower=false \
