@@ -217,7 +217,6 @@ PRODUCT_PACKAGES += \
     init.mmi.charge.sh \
     init.mmi.overlay.rc \
     init.mmi.touch.sh \
-    init.mmi.usb.rc \
     init.oem.fingerprint.sh \
     init.oem.fingerprint2.sh \
     init.oem.hw.sh \
@@ -576,7 +575,11 @@ PRODUCT_PACKAGES += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.3-service-qti
+    android.hardware.usb@1.3-service-qti \
+    init.qcom.usb.rc \
+    init.qcom.usb.sh
+
+PRODUCT_SOONG_NAMESPACES += vendor/qcom/opensource/usb/etc
 
 # VNDK
 PRODUCT_ENFORCE_ARTIFACT_PATH_REQUIREMENTS := strict
