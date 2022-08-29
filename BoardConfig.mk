@@ -255,7 +255,7 @@ ODM_MANIFEST_N_FILES := $(DEVICE_PATH)/odm/manifest_n.xml
 ODM_MANIFEST_NP_FILES := $(DEVICE_PATH)/odm/manifest_np.xml
 
 # SELinux
-include device/qcom/sepolicy_vndr/SEPolicy.mk
+include device/qcom/sepolicy_vndr-legacy-um/SEPolicy.mk
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
