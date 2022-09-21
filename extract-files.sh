@@ -55,9 +55,9 @@ fi
 
 function blob_fixup() {
     case "${1}" in
-    # imsvt shim
+    # libgui shim
     system_ext/lib64/lib-imsvideocodec.so | system_ext/lib64/libimsmedia_jni.so)
-        "${PATCHELF}" --add-needed lib-imsvt_shim.so "${2}"
+        "${PATCHELF}" --add-needed libgui_shim.so "${2}"
         ;;
     # memset shim
     vendor/bin/charge_only_mode)
