@@ -528,8 +528,8 @@ PRODUCT_PACKAGES += \
 
 # Shims
 PRODUCT_PACKAGES += \
-    libmemset_shim \
-    lib-imsvt_shim
+    libgui_shim \
+    libmemset_shim
 
 # Soong namespaces
 QCOM_SOONG_NAMESPACE := $(LOCAL_PATH)
