@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5cc15c93_ca5bc5e3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24418
+      },
+      "writtenOn": "2022-09-25T18:26:19Z",
+      "side": 1,
+      "message": "In dmesg:\n\n```\n[   58.770254] type\u003d1400 audit(1664126034.410:28): avc: denied { search } for comm\u003d\"nfc@1.2-service\" name\u003d\"nfc\" dev\u003d\"dm-6\" ino\u003d261 scontext\u003du:r:hal_nfc_default:s0 tcontext\u003du:object_r:vendor_nfc_vendor_data_file:s0 tclass\u003ddir permissive\u003d0\n[   58.816226] type\u003d1400 audit(1664126034.453:29): avc: denied { search } for comm\u003d\"nfc@1.2-service\" name\u003d\"nfc\" dev\u003d\"dm-6\" ino\u003d261 scontext\u003du:r:hal_nfc_default:s0 tcontext\u003du:object_r:vendor_nfc_vendor_data_file:s0 tclass\u003ddir permissive\u003d0\n```",
+      "revId": "e749474fd084e7da4173a85655da80adacff003e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
