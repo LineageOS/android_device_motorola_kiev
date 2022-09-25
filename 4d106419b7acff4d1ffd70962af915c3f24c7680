@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "48cddc7e_6021b916",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24418
+      },
+      "writtenOn": "2022-09-25T18:52:57Z",
+      "side": 1,
+      "message": "```\n[   15.693646] type\u003d1400 audit(1664091712.223:25): avc: denied { write } for comm\u003d\"fingerprint@2.1\" name\u003d\"property_service\" dev\u003d\"tmpfs\" ino\u003d26738 scontext\u003du:r:hal_fingerprint_default:s0 tcontext\u003du:object_r:property_socket:s0 tclass\u003dsock_file permissive\u003d0\n--- sepolicy-inject -s hal_fingerprint_default -t property_socket -c sock_file -p write\n--- sepolicy-inject -s hal_fingerprint_default -t init -c unix_stream_socket -p connectto -l \n--- killall android.hardware.biometrics.fingerprint@2.1-service-ets\n[ 5571.476339] type\u003d1107 audit(1664131547.124:305): uid\u003d0 auid\u003d4294967295 ses\u003d4294967295 subj\u003du:r:init:s0 msg\u003d\u0027avc: denied { set } for property\u003dvendor.hw.fingerprint.status pid\u003d23012 uid\u003d1000 gid\u003d1000 scontext\u003du:r:hal_fingerprint_default:s0 tcontext\u003du:object_r:moto_fingerprint_prop:s0 tclass\u003dproperty_service permissive\u003d0\u0027\n--- sepolicy-inject -s hal_fingerprint_default -t moto_fingerprint_prop -c property_service -p set -l\n--- killall android.hardware.biometrics.fingerprint@2.1-service-ets\n(nothing)\n```",
+      "revId": "4d106419b7acff4d1ffd70962af915c3f24c7680",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
