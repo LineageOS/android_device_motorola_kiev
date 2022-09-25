@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0d1f711d_d2d9c885",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24418
+      },
+      "writtenOn": "2022-09-25T19:11:39Z",
+      "side": 1,
+      "message": "```\n[   11.560421] type\u003d1400 audit(1664091708.093:17): avc: denied { read } for comm\u003d\"sscrpcd\" name\u003d\"u:object_r:moto_boot_prop:s0\" dev\u003d\"tmpfs\" ino\u003d22466 scontext\u003du:r:vendor_sensors:s0 tcontext\u003du:object_r:moto_boot_prop:s0 tclass\u003dfile permissive\u003d0\n--- sepolicy-inject -s vendor_sensors -t moto_boot_prop -c file -p read -l\n--- killall scrpcd\n(nothing)\n```",
+      "revId": "f70e41eddd16724b056948c6be1f96768101c90b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
