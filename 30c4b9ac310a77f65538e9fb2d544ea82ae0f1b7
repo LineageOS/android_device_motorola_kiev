@@ -22,6 +22,30 @@
       },
       "revId": "30c4b9ac310a77f65538e9fb2d544ea82ae0f1b7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7b8e4a23_8ad38101",
+        "filename": "sepolicy/vendor/hal_camera_default.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 24418
+      },
+      "writtenOn": "2022-09-29T20:09:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "82e717c7_baa31db5",
+      "range": {
+        "startLine": 16,
+        "startChar": 29,
+        "endLine": 16,
+        "endChar": 39
+      },
+      "revId": "30c4b9ac310a77f65538e9fb2d544ea82ae0f1b7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
