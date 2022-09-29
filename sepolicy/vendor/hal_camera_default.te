@@ -13,6 +13,7 @@ r_dir_file(hal_camera_default, mnt_vendor_file)
 # Camera props
 get_prop(hal_camera_default, exported_camera_prop)
 get_prop(hal_camera_default, exported_radio_prop)
+get_prop(hal_camera_default, radio_prop)
 get_prop(hal_camera_default, media_variant_prop)
 get_prop(hal_camera_default, surfaceflinger_display_prop)
 get_prop(hal_camera_default, vendor_camera_prop)
@@ -27,3 +28,7 @@ allow hal_camera_default vendor_xdsp_device:chr_file rw_file_perms;
 
 # QSPM hal service for accessing camera info
 hal_client_domain(hal_camera_default, vendor_hal_qspmhal)
+
+# Required sysfs nodes
+allow hal_camera_default vendor_sysfs_battery_supply:dir r_dir_perms;
+allow hal_camera_default vendor_sysfs_battery_supply:file r_file_perms;
