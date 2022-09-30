@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4136ac0e_a089c0e7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24418
+      },
+      "writtenOn": "2022-09-30T03:07:07Z",
+      "side": 1,
+      "message": "This is turning out to be a bit bigger than I originally expected.\n\n```\nneverallow check failed at out/target/product/kiev/obj/ETC/plat_sepolicy.cil_intermediates/plat_sepolicy.cil:13180 from system/sepolicy/public/property.te:396\n  (neverallow base_typeattr_500 radio_prop (file (ioctl read write create setattr lock relabelfrom append unlink link rename open watch watch_mount watch_sb watch_with_perm watch_reads)))\n    \u003croot\u003e\n    allow at out/target/product/kiev/obj/ETC/vendor_sepolicy.cil_intermediates/vendor_sepolicy.cil:8722\n      (allow hal_camera_default radio_prop_30_0 (file (read getattr map open)))\n    \u003croot\u003e\n    allow at out/target/product/kiev/obj/ETC/vendor_sepolicy.cil_intermediates/vendor_sepolicy.cil:8734\n      (allow hal_camera_default radio_prop_30_0 (file (read getattr map open)))\n```\n\nI\u0027m going to need to figure out a better/more specific way to deal with this denial.",
+      "revId": "8110ce8c958c13cd6b27c5dd8a2e7161607f63f3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
