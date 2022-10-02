@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d170bd8b_d74d526d",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 24418
+      },
+      "writtenOn": "2022-10-02T17:09:22Z",
+      "side": 1,
+      "message": "Shouldn\u0027t this be `kryo`?",
+      "range": {
+        "startLine": 33,
+        "startChar": 30,
+        "endLine": 33,
+        "endChar": 37
+      },
+      "revId": "d1c7fd8af3271a77d826815beb60a58357063dca",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
