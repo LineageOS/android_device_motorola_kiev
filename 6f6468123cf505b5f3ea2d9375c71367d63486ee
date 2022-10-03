@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "94c2216a_4656bae6",
+        "filename": "audio/audio_policy_configuration.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2022-10-03T06:23:04Z",
+      "side": 1,
+      "message": "You\u0027re routing USB audio to primary audio HAL",
+      "range": {
+        "startLine": 168,
+        "startChar": 0,
+        "endLine": 171,
+        "endChar": 94
+      },
+      "revId": "6f6468123cf505b5f3ea2d9375c71367d63486ee",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
