@@ -22,6 +22,30 @@
       },
       "revId": "6f6468123cf505b5f3ea2d9375c71367d63486ee",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "49493233_345f2838",
+        "filename": "audio/audio_policy_configuration.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 23878
+      },
+      "writtenOn": "2022-10-05T12:07:47Z",
+      "side": 1,
+      "message": "idk, i see this coming default in many cases from motorola.\n\nhttps://github.com/LineageOS/android_device_motorola_dubai/blob/lineage-19.1/audio/audio_policy_configuration.xml#L199",
+      "parentUuid": "94c2216a_4656bae6",
+      "range": {
+        "startLine": 168,
+        "startChar": 0,
+        "endLine": 171,
+        "endChar": 94
+      },
+      "revId": "6f6468123cf505b5f3ea2d9375c71367d63486ee",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
