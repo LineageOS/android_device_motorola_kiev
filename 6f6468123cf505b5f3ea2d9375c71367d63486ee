@@ -46,6 +46,30 @@
       },
       "revId": "6f6468123cf505b5f3ea2d9375c71367d63486ee",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c3692a38_b3974f8d",
+        "filename": "audio/audio_policy_configuration.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2022-10-05T12:14:33Z",
+      "side": 1,
+      "message": "Yeah, it\u0027s wrong, I\u0027m surprised this even passes VTS\nCorrect change is this I4eeaadc9e3dd26fb54dbfa5a1acf3599b3e6b16b or this I579e442a8c41ec62acc1e5be7478889bf5bc24b8 (last one is how Pixels do it)",
+      "parentUuid": "49493233_345f2838",
+      "range": {
+        "startLine": 168,
+        "startChar": 0,
+        "endLine": 171,
+        "endChar": 94
+      },
+      "revId": "6f6468123cf505b5f3ea2d9375c71367d63486ee",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
