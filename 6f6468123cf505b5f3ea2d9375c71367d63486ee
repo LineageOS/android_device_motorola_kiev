@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4d23a31d_51d2b107",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 23878
+      },
+      "writtenOn": "2022-10-05T23:26:42Z",
+      "side": 1,
+      "message": "Though as is this is not correct, following up with:  https://review.lineageos.org/c/LineageOS/android_device_motorola_kiev/+/340951",
+      "revId": "6f6468123cf505b5f3ea2d9375c71367d63486ee",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "94c2216a_4656bae6",
