@@ -228,10 +228,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_RAMDISK)/fstab.qcom
 
-# Cryptfshw
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.cryptfshw@1.0.vendor
-
 # Crypto
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor \
