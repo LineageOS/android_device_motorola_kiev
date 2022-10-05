@@ -250,9 +250,7 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
     gralloc.lito \
-    libdisplayconfig \
     libdisplayconfig.qti \
-    libdisplayconfig.vendor \
     libqdMetaData \
     libqdMetaData.system \
     libtinyxml \
