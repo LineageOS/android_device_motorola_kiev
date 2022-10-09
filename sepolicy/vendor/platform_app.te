@@ -2,3 +2,4 @@ get_prop(platform_app, moto_boot_prop)
 get_prop(platform_app, audio_config_prop)
 allow platform_app moto_boot_prop:file { read };
 allow platform_app audio_config_prop:file { read };
+allow platform_app zygote:unix_stream_socket { getopt };
