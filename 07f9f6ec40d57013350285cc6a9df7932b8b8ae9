@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "61faa09b_58d88129",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 23878
+      },
+      "writtenOn": "2022-10-10T17:19:57Z",
+      "side": 1,
+      "message": "hold for topic:twelve-camera-privapp",
+      "revId": "07f9f6ec40d57013350285cc6a9df7932b8b8ae9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
