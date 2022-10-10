@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d0164917_4296237d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 23878
+      },
+      "writtenOn": "2022-10-10T19:49:06Z",
+      "side": 1,
+      "message": "breaks usb",
+      "revId": "bef11be7a1402c8230fab32ded4f8b15410bf141",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
