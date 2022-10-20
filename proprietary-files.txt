@@ -778,7 +778,7 @@ product/etc/permissions/com.motorola.camera3.xml
 product/etc/permissions/privapp-permissions-com.motorola.camera3.xml
 product/etc/permissions/com.motorola.camera3.lens.xml
 product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml
--product/priv-app/MotCamera3/MotCamera3.apk;OVERRIDES=Camera2|f9e51b1a293010d34f79e847af34252bd66cde67
+-product/priv-app/MotCamera3/MotCamera3.apk;OVERRIDES=Aperture|f9e51b1a293010d34f79e847af34252bd66cde67
 system_ext/framework/com.motorola.androidx.camera.extensions.jar
 system_ext/etc/permissions/com.motorola.androidx.camera.extensions.xml
 system_ext/etc/public.libraries-motocamera.txt
