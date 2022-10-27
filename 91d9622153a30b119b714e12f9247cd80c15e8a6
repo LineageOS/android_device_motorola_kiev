@@ -16,6 +16,24 @@
       "message": "the authorship is wrong",
       "revId": "91d9622153a30b119b714e12f9247cd80c15e8a6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c0cefa6f_a2c5da08",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 23878
+      },
+      "writtenOn": "2022-10-27T14:37:05Z",
+      "side": 1,
+      "message": "hmm thanks, not sure how that even happened",
+      "parentUuid": "e7e723df_58818fbf",
+      "revId": "91d9622153a30b119b714e12f9247cd80c15e8a6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
