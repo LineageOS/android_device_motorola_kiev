@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8541661e_c8ea8f8e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2022-11-01T14:51:26Z",
+      "side": 1,
+      "message": "https://github.com/LineageOS/android_hardware_lineage_compat/blob/lineage-20.0/Android.bp#L127",
+      "revId": "fbf71d2987a1c327f2303b29def8e6564d7c61db",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
