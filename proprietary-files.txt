@@ -250,6 +250,8 @@ product/etc/permissions/privapp-permissions-com.motorola.motodisplay.xml
 system_ext/etc/permissions/com.motorola.androidx.camera.extensions.xml:vendor/etc/permissions/com.motorola.androidx.camera.extensions.xml
 
 # NFC
+vendor/etc/libnfc-nci.conf
+vendor/etc/libnfc-nxp.conf
 vendor/lib64/libpn557_fw.so
 
 # OEM
