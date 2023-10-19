@@ -4,16 +4,6 @@
 -->
 <manifest version="2.0" type="device">
     <hal format="hidl" override="true">
-        <name>android.hardware.nfc</name>
-        <transport>hwbinder</transport>
-        <version>1.2</version>
-        <interface>
-            <name>INfc</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.2::INfc/default</fqname>
-    </hal>
-    <hal format="hidl" override="true">
         <name>android.hardware.radio</name>
         <transport>hwbinder</transport>
         <version>1.5</version>
@@ -33,10 +23,6 @@
             <instance>SIM1</instance>
         </interface>
         <fqname>@1.2::ISecureElement/SIM1</fqname>
-    </hal>
-    <hal format="hidl" override="true">
-        <name>vendor.nxp.hardware.nfc</name>
-        <transport>hwbinder</transport>
     </hal>
     <hal format="hidl" override="true">
         <name>vendor.qti.hardware.data.connection</name>
