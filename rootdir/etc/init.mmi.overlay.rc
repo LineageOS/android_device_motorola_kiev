@@ -81,6 +81,26 @@ service capsense_reset /system/vendor/bin/capsense_reset
 on property:sys.boot_completed=1
     start capsense_reset
 
+service vendor.ident-fps-sh /vendor/bin/init.oem.fingerprint.sh
+    class core
+    user root
+    group drmrpc system
+    oneshot
+    disabled
+
+service vendor.hal-fps-sh /vendor/bin/init.oem.fingerprint2.sh
+    class late_start
+    user root
+    group system
+    oneshot
+
+service egis_ident /vendor/bin/hw/egis_ident
+    class late_start
+    user system
+    group system
+    oneshot
+    disabled
+
 service vendor.mmi-charge-sh /vendor/bin/init.mmi.charge.sh
     class core
     user root

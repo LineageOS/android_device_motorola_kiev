@@ -1,8 +1,2 @@
-# VL53L1
-type vl53l1_device, dev_type;
-
-# Thermal
-type thermal_device, dev_type;
-
 # Fingerprint 
 type fingerprint_device, dev_type;

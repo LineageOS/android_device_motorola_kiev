@@ -1,2 +1,0 @@
-allow vendor_fm_app mediametrics_service:service_manager find;
-allow vendor_fm_app vendor_fm_prop:file { getattr map open read };

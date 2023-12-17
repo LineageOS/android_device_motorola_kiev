@@ -1,0 +1,49 @@
+//
+// Copyright (C) 2023 The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+sh_binary {
+    name: "init.mmi.charge.sh",
+    src: "bin/init.mmi.charge.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.oem.fingerprint.sh",
+    src: "bin/init.oem.fingerprint.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.oem.fingerprint2.sh",
+    src: "bin/init.oem.fingerprint2.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "load_touch.sh",
+    src: "bin/load_touch.sh",
+    recovery: true,
+}
+
+prebuilt_etc {
+    name: "init.mmi.overlay.rc",
+    src: "etc/init.mmi.overlay.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.recovery.lkm.rc",
+    src: "etc/init.recovery.lkm.rc",
+    sub_dir: "init",
+    recovery: true,
+}
+
+prebuilt_etc {
+    name: "ueventd.moto.rc",
+    filename: "ueventd.rc",
+    src: "etc/ueventd.moto.rc",
+    device_specific: true,
+}
