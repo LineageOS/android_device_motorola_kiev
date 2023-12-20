@@ -14,6 +14,10 @@ bluetooth.device.default_name=moto g 5G
 persist.vendor.camera.physical.num=4
 persist.vendor.camera.privapp.list=com.motorola.camera3
 
+# Chipset
+ro.soc.manufacturer=QTI
+ro.soc.model=SM7225
+
 # Firmware
 ro.vendor.hw.modem_version=.
 
