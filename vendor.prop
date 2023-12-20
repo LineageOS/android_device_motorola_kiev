@@ -26,9 +26,6 @@ ro.vendor.fm.use_audio_session=true
 
 # Graphics
 persist.sys.sf.color_mode=0
-ro.surface_flinger.set_idle_timer_ms=4000
-ro.surface_flinger.set_touch_timer_ms=4000
-ro.surface_flinger.set_display_power_timer_ms=1000
 
 # HDR
 ro.vendor.display.hdr.config=/vendor/etc/hdr_tm_config.xml
