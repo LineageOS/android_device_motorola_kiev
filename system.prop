@@ -1,0 +1,6 @@
+#
+# system.prop
+#
+
+# Sensor
+persist.vendor.sensors.allow_non_default_discovery=true

@@ -1,0 +1,51 @@
+# Audio
+persist.vendor.audio.calfile0=/vendor/etc/acdbdata/Bluetooth_cal.acdb
+persist.vendor.audio.calfile1=/vendor/etc/acdbdata/General_cal.acdb
+persist.vendor.audio.calfile2=/vendor/etc/acdbdata/Global_cal.acdb
+persist.vendor.audio.calfile3=/vendor/etc/acdbdata/Handset_cal.acdb
+persist.vendor.audio.calfile4=/vendor/etc/acdbdata/Hdmi_cal.acdb
+persist.vendor.audio.calfile5=/vendor/etc/acdbdata/Headset_cal.acdb
+persist.vendor.audio.calfile6=/vendor/etc/acdbdata/Speaker_cal.acdb
+
+# Bluetooth
+bluetooth.device.default_name=moto g 5G
+
+# Camera
+persist.vendor.camera.physical.num=4
+persist.vendor.camera.privapp.list=com.motorola.camera3
+
+# Firmware
+ro.vendor.hw.modem_version=.
+
+# FM
+ro.vendor.fm.use_audio_session=true
+
+# Graphics
+persist.sys.sf.color_mode=0
+ro.surface_flinger.set_idle_timer_ms=4000
+ro.surface_flinger.set_touch_timer_ms=4000
+ro.surface_flinger.set_display_power_timer_ms=1000
+
+# HDR
+ro.vendor.display.hdr.config=/vendor/etc/hdr_tm_config.xml
+
+# Media
+media.aac_51_output_enabled=true
+media.stagefright.enable-player=true
+media.stagefright.enable-http=true
+media.stagefright.enable-aac=true
+media.stagefright.enable-qcp=true
+media.stagefright.enable-fma2dp=true
+media.stagefright.enable-scan=true
+media.recorder.show_manufacturer_and_model=true
+mmp.enable.3g2=true
+persist.mm.enable.prefetch=true
+vendor.mm.en.sec.smoothstreaming=false
+vendor.mm.enable.qcom_parser=16777215
+
+# Sensors
+persist.vendor.sensors.hal_trigger_ssr=false
+persist.vendor.sensors.odl.adsp=true
+ro.vendor.hw.thermal_skin_val=battery
+ro.vendor.sensors.glance_approach=false
+ro.vendor.sensors.mot_ltv=true

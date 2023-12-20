@@ -47,6 +47,11 @@ ODM_MANIFEST_NP_FILES := $(DEVICE_PATH)/odm/manifest_np.xml
 # Partitions
 BOARD_DTBOIMG_PARTITION_SIZE := 8388608
 
+# Properties
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 # SELinux
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
