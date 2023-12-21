@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from Kiev RZKS31.Q3-45-16-8-3 (RETUS)
+# All unpinned blobs below are extracted from Kiev RZKS31.Q3-45-16-8-19 (RETUS)
 
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
