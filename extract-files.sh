@@ -33,6 +33,7 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --set-soname audio.primary.lito-moto.so "${2}"
             "${PATCHELF}" --replace-needed libtinyalsa.so libtinyalsa-moto.so "${2}"
+            "${PATCHELF}" --replace-needed android.hardware.power-V1-ndk_platform.so android.hardware.power-V1-ndk.so "${2}"
             ;;
         # __lttf2 shim
         vendor/lib64/libvidhance.so)
