@@ -35,6 +35,11 @@ function blob_fixup() {
             "${PATCHELF}" --replace-needed libtinyalsa.so libtinyalsa-moto.so "${2}"
             "${PATCHELF}" --replace-needed android.hardware.power-V1-ndk_platform.so android.hardware.power-V1-ndk.so "${2}"
             ;;
+        # set soname libMAM2_3-AlgFX-Coretex_A9
+        vendor/lib/libMAM2_3-AlgFX-Coretex_A9.so)
+            [ "$2" = "" ] && return 0
+            "${PATCHELF}" --set-soname libMAM2_3-AlgFX-Coretex_A9.so "${2}"
+            ;;
         # __lttf2 shim
         vendor/lib64/libvidhance.so)
             [ "$2" = "" ] && return 0
