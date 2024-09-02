@@ -15,8 +15,8 @@ vendor/firmware/aw882xx_afe_params.bin
 vendor/firmware/aw882xx_spk_reg.bin
 
 # Audio - Prebuilt
-vendor/lib/hw/audio.primary.lito.so:vendor/lib/hw/audio.primary.lito-moto.so
-vendor/lib/vndk/libtinyalsa.so:vendor/lib/libtinyalsa-moto.so
+vendor/lib/hw/audio.primary.lito.so:vendor/lib/hw/audio.primary.lito-moto.so;FIX_SONAME
+vendor/lib/vndk/libtinyalsa.so:vendor/lib/libtinyalsa-moto.so;FIX_SONAME
 vendor/lib/libmotaudioutils.so
 vendor/lib/libtinycompress_vendor.so
 
