@@ -176,7 +176,7 @@ vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.bitra.so
 vendor/firmware/CAMERA_ICP.elf
 
 # Charger
-vendor/bin/charge_only_mode|8f3e44866dd39801bb0f47ee8359a6e4a99a47be
+vendor/bin/charge_only_mode|8f3e44866dd39801bb0f47ee8359a6e4a99a47be|8f3e44866dd39801bb0f47ee8359a6e4a99a47be
 vendor/bin/hvdcp_opti
 vendor/etc/charger_fstab.qti
 vendor/etc/init/hw/init.mmi.charge_only.rc
