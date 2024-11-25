@@ -22,8 +22,6 @@ namespace_imports = [
 ]
 
 blob_fixups: blob_fixups_user_type = {
-    'vendor/bin/charge_only_mode': blob_fixup()
-        .add_needed('libmemset_shim.so'),
     'vendor/lib/hw/audio.primary.lito-moto.so': blob_fixup()
         .replace_needed('android.hardware.power-V1-ndk_platform.so', 'android.hardware.power-V1-ndk.so')
         .replace_needed('libtinyalsa.so', 'libtinyalsa-moto.so'),
