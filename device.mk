@@ -70,6 +70,18 @@ PRODUCT_PACKAGES += \
     FM2 \
     qcom.fmradio
 
+# Init
+PRODUCT_PACKAGES += \
+    init.mmi.charge.sh \
+    init.mmi.overlay.rc \
+    init.oem.fingerprint.sh \
+    init.oem.fingerprint2.sh \
+    init.qti.chg_policy.sh \
+    init.recovery.lkm.rc
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/init/load_touch.sh:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/bin/load_touch.sh
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.kiev
@@ -96,20 +108,6 @@ PRODUCT_COPY_FILES += \
 # Power
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
-
-# Ramdisk
-PRODUCT_PACKAGES += \
-    init.mmi.charge.sh \
-    init.oem.fingerprint.sh \
-    init.oem.fingerprint2.sh \
-    init.qti.chg_policy.sh
-
-PRODUCT_PACKAGES += \
-    init.mmi.overlay.rc \
-    init.recovery.lkm.rc
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/bin/load_touch.sh:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/bin/load_touch.sh
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \

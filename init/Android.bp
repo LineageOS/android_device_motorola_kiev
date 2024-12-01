@@ -1,0 +1,42 @@
+//
+// Copyright (C) 2023-2024 The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "init.mmi.overlay.rc",
+    src: "init.mmi.overlay.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.recovery.lkm.rc",
+    src: "init.recovery.lkm.rc",
+    sub_dir: "init",
+    recovery: true,
+}
+
+sh_binary {
+    name: "init.mmi.charge.sh",
+    src: "init.mmi.charge.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.oem.fingerprint.sh",
+    src: "init.oem.fingerprint.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.oem.fingerprint2.sh",
+    src: "init.oem.fingerprint2.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.qti.chg_policy.sh",
+    src: "init.qti.chg_policy.sh",
+    vendor: true,
+}
