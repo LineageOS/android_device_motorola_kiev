@@ -6,14 +6,14 @@
 prebuilt_etc {
     name: "init.mmi.overlay.rc",
     src: "init.mmi.overlay.rc",
-    sub_dir: "init/hw",
+    relative_install_path: "init/hw",
     vendor: true,
 }
 
 prebuilt_etc {
     name: "init.recovery.lkm.rc",
     src: "init.recovery.lkm.rc",
-    sub_dir: "init",
+    relative_install_path: "init",
     recovery: true,
 }
 
