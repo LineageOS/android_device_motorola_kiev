@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017-2023 The LineageOS Project
+# Copyright (C) 2017-2025 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -21,7 +21,6 @@ TARGET_SCREEN_DENSITY := 420
 
 # FM
 BOARD_HAVE_QCOM_FM := true
-BOARD_HAS_QCA_FM_SOC := "cherokee"
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
