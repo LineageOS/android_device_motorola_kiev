@@ -2,8 +2,6 @@
 /(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service-ets       u:object_r:hal_fingerprint_default_exec:s0
 /(vendor|system/vendor)/bin/hw/egis_ident                                                        u:object_r:hal_fingerprint_default_exec:s0
 /(vendor|system/vendor)/bin/hw/fpc_ident                                                         u:object_r:vendor_hal_fingerprint_fpc_exec:s0
-/(vendor|system/vendor)/bin/hw/android\.hardware\.lights-service\.kiev                           u:object_r:hal_light_default_exec:s0
-/(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.kiev                       u:object_r:hal_light_default_exec:s0
 
 # Vendor init scripts
 /(vendor|system/vendor)/bin/load_touch\.sh                                                 u:object_r:vendor_qti_init_shell_exec:s0
