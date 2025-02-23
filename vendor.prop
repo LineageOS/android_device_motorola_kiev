@@ -46,6 +46,7 @@ media.recorder.show_manufacturer_and_model=true
 vendor.mm.en.sec.smoothstreaming=false
 
 # Sensors
+persist.vendor.sensors.allow_non_default_discovery=true
 persist.vendor.sensors.hal_trigger_ssr=false
 persist.vendor.sensors.odl.adsp=true
 ro.vendor.hw.thermal_skin_val=battery
