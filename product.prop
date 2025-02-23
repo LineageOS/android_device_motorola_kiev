@@ -1,2 +1,5 @@
 # Cutout
 ro.support_hide_display_cutout=true
+
+# Sensor
+persist.vendor.sensors.allow_non_default_discovery=true
