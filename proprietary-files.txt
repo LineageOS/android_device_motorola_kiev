@@ -207,10 +207,6 @@ product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAG
 # Listen
 vendor/lib/hw/sound_trigger.primary.lito.so
 
-# Media
-vendor/etc/init/vendor.qti.media.c2@1.0-service.rc
-vendor/etc/vintf/manifest/c2_manifest_vendor.xml
-
 # Media configs
 vendor/etc/media_lagoon/video_system_specs.json
 
