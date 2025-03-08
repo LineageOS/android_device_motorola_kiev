@@ -4,11 +4,12 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.systemui.variant1.lineage">
+    package="com.android.systemui.XT2113_3.lineage">
 
     <overlay
         android:targetPackage="com.android.systemui"
         android:requiredSystemPropertyName="ro.boot.hardware.sku"
-        android:requiredSystemPropertyValue="XT2113-2"
+        android:requiredSystemPropertyValue="XT2113-3"
+        android:priority="150"
         android:isStatic="true" />
 </manifest>

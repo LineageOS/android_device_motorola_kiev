@@ -22,9 +22,7 @@ PRODUCT_PACKAGES += \
 
 # SKU specific RROs
 PRODUCT_PACKAGES += \
-    LineageSystemUIVariant1 \
-    LineageSystemUIVariant2 \
-    LineageSystemUIVariant3 \
+    LineageSystemUIXT2113_3
 
 # Audio
 PRODUCT_PACKAGES += \
