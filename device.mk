@@ -26,10 +26,11 @@ PRODUCT_PACKAGES += \
     LineageSystemUIVariant2 \
     LineageSystemUIVariant3 \
 
-
 # Audio
 PRODUCT_PACKAGES += \
-    android.hardware.soundtrigger@2.3-impl
+    android.hardware.soundtrigger@2.3-impl \
+    audio.primary.lito \
+    libqcompostprocbundle
 
 # audio.primary.lito shim
 PRODUCT_PACKAGES += \
@@ -87,6 +88,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml
 
 # NFC
+PRODUCT_PACKAGES += \
+    android.hardware.nfc@1.2-service
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     $(LOCAL_PATH)/configs/nfc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf
