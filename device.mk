@@ -108,9 +108,5 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/aoa_cldb_swl14.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/aoa_cldb_swl14.bin \
     $(LOCAL_PATH)/wifi/icm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/icm.conf
 
-# VNDK
-PRODUCT_PACKAGES += \
-    libcomparetf2_shim
-
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/motorola/kiev/kiev-vendor.mk)
