@@ -21,7 +21,7 @@ PRODUCT_PACKAGES += \
 
 # SKU specific RROs
 PRODUCT_PACKAGES += \
-    LineageSystemUIXT2113-3
+    LineageSystemUIXT2113_3
 
 # Audio
 PRODUCT_PACKAGES += \
