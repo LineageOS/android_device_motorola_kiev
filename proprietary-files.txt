@@ -25,8 +25,6 @@ vendor/lib/soundfx/libmmieffectswrapper.so
 vendor/lib/soundfx/libspeakerbundle.so
 
 # Camera
-vendor/lib/libcamera_nn_stub.so
-vendor/lib/libofflinelog.so
 vendor/lib64/camera/com.mot.eeprom.mot_dw9767_s5kgm1st_eeprom.so
 vendor/lib64/camera/com.mot.eeprom.mot_gt24p64b_ov02b10_eeprom.so
 vendor/lib64/camera/com.mot.eeprom.mot_gt24p64b_ov16a1q_eeprom.so
@@ -112,14 +110,6 @@ vendor/lib64/libarcsoft_portrait_distortion_correction.so
 vendor/lib64/libarcsoft_zoomtranslator_imp.so
 
 # Camera camerax
-vendor/lib/libcamxexternalformatutils.so
-vendor/lib/libcamxfacialfeatures.so
-vendor/lib/libcamxfdalgo.so
-vendor/lib/libcamximageformatutils.so
-vendor/lib/libcamxncs.so
-vendor/lib/libcamxstatscore.so
-vendor/lib/libcamxswprocessalgo.so
-vendor/lib/libcamxtintlessalgo.so
 vendor/lib64/libcamxexternalformatutils.so
 vendor/lib64/libcamxfacialfeatures.so
 vendor/lib64/libcamxfdalgo.so
