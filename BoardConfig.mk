@@ -28,9 +28,9 @@ ODM_MANIFEST_SKUS := \
     n \
     np
 
-ODM_MANIFEST_DN_FILES := $(DEVICE_PATH)/odm/manifest_dn.xml
-ODM_MANIFEST_N_FILES := $(DEVICE_PATH)/odm/manifest_n.xml
-ODM_MANIFEST_NP_FILES := $(DEVICE_PATH)/odm/manifest_np.xml
+ODM_MANIFEST_DN_FILES := $(DEVICE_PATH)/configs/sku/manifest_dn.xml
+ODM_MANIFEST_N_FILES := $(DEVICE_PATH)/configs/sku/manifest_n.xml
+ODM_MANIFEST_NP_FILES := $(DEVICE_PATH)/configs/sku/manifest_np.xml
 
 # Partitions
 BOARD_DTBOIMG_PARTITION_SIZE := 8388608
