@@ -1,6 +1,0 @@
-# Power
-type power_supply, sysfs_type, fs_type;
-
-# Fingerprint
-type sysfs_ets, sysfs_type, fs_type;
-type sysfs_fingerprint, sysfs_type, fs_type;

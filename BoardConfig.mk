@@ -62,8 +62,5 @@ RECOVERY_KERNEL_MODULES := $(addsuffix .ko,$(BOARD_RECOVERY_RAMDISK_KERNEL_MODUL
 # Security
 VENDOR_SECURITY_PATCH := 2023-03-01
 
-# SELinux
-BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
-
 # inherit from the proprietary version
 include vendor/motorola/kiev/BoardConfigVendor.mk
