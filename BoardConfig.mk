@@ -36,7 +36,7 @@ TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Copy to recovery
-BOARD_RECOVERY_RAMDISK_KERNEL_MODULES_LOAD := \
+BOARD_RECOVERY_KERNEL_MODULES_LOAD := \
     utags \
     mmi_annotate \
     mmi_info \
@@ -53,7 +53,7 @@ BOARD_RECOVERY_RAMDISK_KERNEL_MODULES_LOAD := \
     touchscreen_mmi \
     focaltech_0flash_mmi
 
-RECOVERY_KERNEL_MODULES := $(addsuffix .ko,$(BOARD_RECOVERY_RAMDISK_KERNEL_MODULES_LOAD))
+RECOVERY_KERNEL_MODULES := $(addsuffix .ko,$(BOARD_RECOVERY_KERNEL_MODULES_LOAD))
 
 # Security
 VENDOR_SECURITY_PATCH := 2023-03-01
