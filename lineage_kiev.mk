@@ -20,6 +20,7 @@ PRODUCT_DEVICE := kiev
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g 5G
 PRODUCT_MANUFACTURER := motorola
+PRODUCT_SYSTEM_NAME := kiev_retail
 
 PRODUCT_AAPT_CONFIG := xxxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
@@ -34,4 +35,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-motorola
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="kiev_retail-user 11 RZKS31.Q3-45-16-8-19 cc8087 release-keys" \
     BuildFingerprint=motorola/kiev_retail/kiev:11/RZKS31.Q3-45-16-8-19/cc8087:user/release-keys \
-    DeviceProduct=kiev_retail
+    DeviceProduct=$(PRODUCT_SYSTEM_NAME)
