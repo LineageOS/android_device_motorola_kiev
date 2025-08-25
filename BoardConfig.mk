@@ -8,9 +8,6 @@ include device/motorola/sm7250-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/motorola/kiev
 
-# Kernel
-TARGET_KERNEL_CONFIG := vendor/kiev_defconfig vendor/debugfs.config
-
 # Audio
 AUDIO_FEATURE_ENABLED_A2DP_OFFLOAD := true
 AUDIO_FEATURE_ENABLED_AHAL_EXT := false
