@@ -47,7 +47,6 @@ BOARD_RECOVERY_RAMDISK_KERNEL_MODULES_LOAD := \
     qpnp-smbcharger-mmi \
     mcDrvModule \
     exfat \
-    aw8624 \
     sensors_class \
     mmi_relay \
     sx933x_sar \
