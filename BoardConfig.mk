@@ -46,7 +46,6 @@ BOARD_RECOVERY_KERNEL_MODULES_LOAD := \
     wl2864c \
     qpnp-smbcharger-mmi \
     mcDrvModule \
-    exfat \
     sensors_class \
     mmi_relay \
     sx933x_sar \
