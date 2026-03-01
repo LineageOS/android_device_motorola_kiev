@@ -27,9 +27,6 @@ on fs
    insmod /vendor/lib/modules/fm_ctrl.ko
    insmod /vendor/lib/modules/qpnp_adaptive_charge.ko
 
-on fs && property:ro.build.type=userdebug
-   insmod /vendor/lib/modules/mmi_sigprint.ko
-
 on post-fs-data
    # Load DLKM that can afford being loaded later
    setprop vendor.mmi_init.stage late
